@@ -1,0 +1,24 @@
+{
+  "name": "studyjs",
+  "version": "0.0.1",
+  "description": "repo for js studying ",
+  "main": "index.js",
+  "scripts": {
+    "test": "test "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kirillleogky/studyjs.git"
+  },
+  "keywords": [
+    "study",
+    "javascript",
+    "layout"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kirillleogky/studyjs/issues"
+  },
+  "homepage": "https://github.com/kirillleogky/studyjs#readme"
+}
