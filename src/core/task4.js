@@ -1,4 +1,4 @@
-export function factorial(n) {
+export default function factorial(n) {
 
       var count = n;
 

@@ -1,4 +1,4 @@
-export var obj = {
+export default var obj = {
       first: prompt("Введите первое число"),
 
       second: prompt("Введите второе число"),

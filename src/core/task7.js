@@ -1,4 +1,4 @@
-export function compare(first, second) {
+export default function compare(first, second) {
 
       return (first > second) ? first : second;
 

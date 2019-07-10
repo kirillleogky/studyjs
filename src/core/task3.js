@@ -1,4 +1,4 @@
-export function addUnicode(words) {
+export default function addUnicode(words) {
 
       var numbers = [];
 

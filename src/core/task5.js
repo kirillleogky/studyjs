@@ -1,4 +1,4 @@
-export function compare(number) {
+export default function compare(number) {
 
       return (number > 25) ? "More" :
              (number === 25) ? "The Same" :
