@@ -1,7 +1,13 @@
 export default function multiply() {
-    var number = 1;
-    for (var i = 0; i < arguments.length; i++) {
-      number *= arguments[i];
+
+    if (arguments.length) {
+
+        const number = 1;
+        for (let i = 0; i < arguments.length; i++) {
+            number *= arguments[i];
+        }
+        return number;
+    } else {
+        return 0;
     }
-    return number;
-  }
+}

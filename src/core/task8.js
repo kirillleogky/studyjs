@@ -1,9 +1,16 @@
 export default function createArray(number) {
-      var array = [];
+    const array = [];
 
-      for (var i = 0; i < number; i++) {
-        array.push(i);
-      }
+    if (number < 0) {
+        for (let i = 0; i > number; i--) {
+            array.push(i);
+        }
 
-      return array;
+    } else {
+        for (let i = 0; i < number; i++) {
+            array.push(i);
+        }
     }
+
+    return array;
+}

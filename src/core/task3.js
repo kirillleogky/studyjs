@@ -1,10 +1,10 @@
 export default function addUnicode(words) {
 
-      var numbers = [];
+    const numbers = [];
 
-      for (var i = 0; i < words.length; i++) {
+    for (let i = 0; i < words.length; i++) {
         numbers.push(words.charCodeAt(i));
-      }
-
-      return numbers.join(", ");
     }
+
+    return numbers.join(", ");
+}

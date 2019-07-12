@@ -1,5 +1,10 @@
 export default function showReverse(array) {
 
-      return array.reverse();
+    const revArray = [];
 
+    for (let i = (array.length - 1); i > -1; i--) {
+        revArray.push(array[i]);
     }
+
+    return revArray;
+}
