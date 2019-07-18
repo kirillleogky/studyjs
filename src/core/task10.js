@@ -1,20 +1,18 @@
-export default function Number() {
+export default function MultiplyOfNum() {
 
-    this.first = prompt("Введите первое число");
-
-    this.second = prompt("Введите второе число");
+    this.values = [prompt("Введите первое число"), prompt("Введите второе число")];
 
     this.plus = function() {
-        const plus = (+this.first) + (+this.second);
+        const plus = (+this.values[0]) + (+this.values[1]);
         if (isNaN(plus) || !plus) return "Неверные значения";
-        return plus;
+        return "Сумма ваших значений: " + plus;
     };
 
     this.multiply = function() {
-        const plus = (+this.first) * (+this.second);
-        if (isNaN(plus) || !plus) return "Неверные значения";
-        return plus;
+        const multiply = (+this.values[0]) * (+this.values[1]);
+        if (isNaN(multiply) || !multiply) return "Неверные значения";
+        return "Произведение ваших значений: " + multiply;
     };
 }
 
-const obj = new Number();
+const obj = new MultiplyOfNum();
