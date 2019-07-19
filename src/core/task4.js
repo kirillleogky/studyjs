@@ -1,11 +1,9 @@
-export function factorial(n) {
+export default function factorial(n) {
 
-      var count = n;
+    if (n != 1) {
+        return n * factorial(n - 1);
+    } else {
+        return 1;
 
-      while (count !== 1) {
-        count--;
-        n *= count;
-      }
-
-      return n;
     }
+}

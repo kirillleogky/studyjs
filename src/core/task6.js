@@ -1,13 +1,10 @@
-export function removeUnnecessary(array, callback) {
+export default function showFilteredArray(array, filterFunction) {
 
-      var newArray = array.filter(function(elements) {
-        return elements > 5;
-      });
+    const newArray = array.filter(filterFunction);
 
-      callback(newArray);
-      return newArray;
-    }
+    return alert(newArray.join(","));
+}
 
-    function showElements(array) {
-      alert(array.join(","));
-    }
+function filterNumbers(number) {
+    return number > 5;
+}
